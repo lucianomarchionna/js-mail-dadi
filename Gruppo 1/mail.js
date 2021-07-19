@@ -19,5 +19,6 @@ if(controllo){
     document.getElementById("success").innerHTML = "Ciao, la mail inserita ("+ mail + ") possiede l'accesso al sito!";
 }
 else{
+    console.log("Accesso non Consentito");
     document.getElementById("declined").innerHTML = "Ciao, la mail inserita ("+ mail + ") purtroppo non possiede l'accesso al sito! La preghiamo di riprovare.";
 }
